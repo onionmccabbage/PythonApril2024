@@ -1,0 +1,96 @@
+Python Introduction April 2024
+==============================
+
+Toby Dussek 
+
+9:30  start
+11:00 coffee until 11:15
+12:30 lunch
+3:00  tea until 3:15
+4:30  end
+
+Course Website: 
+
+recordings: username is neueda pwd is c0nygre
+
+Code Repo
+
+ 
+Monday
+- Welcome and intros
+- where to write code: immediate and module (just a file)
+  Pycharm or VSCode or ...
+- overview of Python 3
+- architecture, structure, and professional code best practice
+- print() and input()
+- maths operators and data types
+- the if statement for conditional logic
+- while loop, break and pass
+- indentation
+- immutable strings
+- print formatting
+- square bracket notation for iterable collections
+- memory efficiency
+- identifiers
+- boolean True and False
+- type and type conversion
+- validate input before casting it
+- string manipulation
+- Lists, Tuples and nested collections
+- after lunch review exercise
+- dictionaries (non-numeric indexed iterable collections)
+- import, pip, libraries and modules
+- very big numeric values
+- += etc.
+- looping with 'for'
+- if __name__ == '__main__'
+Tuesday
+- quick review of where we got to
+- range, generators
+- set comprehension, list compresension, dictionary comprehension
+- functions, *args, **kwargs  
+- passing command-line arguments (which are ALWAYS strings)
+- to add libraries to python:
+  - python -m ensurepip
+  - python –m pip install requests (or any other library you need)
+- requests
+- strings with triple quotes
+- exception handling (try-except etc.)
+- review exercise
+- import path
+- overview of testing
+- File input and output
+
+Wednesday
+- brief review so far
+- functions live in classes, which live in modules which live in packages
+- architecture: modules __init__.py 
+- PEP8 style guide
+- custom generator and yield
+- global and local scope 
+- read and write binary files (bytes) - use 'b' isntead of 't'
+- data modelling structures: 
+    use built in structures until they do not suit the purpose (then use classes)
+- Objects and Classes (OOP)
+- get/set as property decorators @property
+- name mangling (__)
+    we should use getter/setter to prevent direct access, 
+    but we can add arbitrary properies and methods to a class
+- properties, methods, __str__
+- intrinsic attributes: __doc__ etc.
+- documentation strings (docstring) for classes
+- special operators and overriding
+- inheritance
+- composition, static and class methods
+- review exercise
+- how to format with certain dp
+- debug tools
+- where to go from here:
+  https://pynative.com/python-exercises-with-solutions/
+  the next courses: advanced python then further advanced python
+- end of course feedback
+
+Links
+- Python official site https://python.org
+- PEP8 style guide https://www.python.org/dev/peps/pep-0008/
+- online Python interpreter https://repl.it/languages/Python3
