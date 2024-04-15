@@ -21,25 +21,25 @@ Monday
 > Welcome and intros
 - where to write code: immediate and module (just a file)
   Pycharm or VSCode or ...
-- overview of Python 3
+> overview of Python 3
 - architecture, structure, and professional code best practice
 - print() and input()
-- maths operators and data types
+> maths operators and data types
 - the if statement for conditional logic
 - while loop, break and pass
-- indentation
-- immutable strings
+> indentation
+> immutable strings
 - print formatting
-- square bracket notation for iterable collections
+> square bracket notation for iterable collections
 - memory efficiency
-- identifiers
-- boolean True and False
-- type and type conversion
+> identifiers
+> boolean True and False
+> type and type conversion
 - validate input before casting it
 - string manipulation
-- Lists, Tuples and nested collections
+> Lists, Tuples and nested collections
 - after lunch review exercise
-- dictionaries (non-numeric indexed iterable collections)
+> dictionaries (non-numeric indexed iterable collections)
 - import, pip, libraries and modules
 - very big numeric values
 - += etc.
