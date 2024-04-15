@@ -13,11 +13,12 @@ Course Website:
 
 recordings: username is neueda pwd is c0nygre
 
-Code Repo
+Code Repo:
+  https://github.com/onionmccabbage/PythonApril2024
 
  
 Monday
-- Welcome and intros
+> Welcome and intros
 - where to write code: immediate and module (just a file)
   Pycharm or VSCode or ...
 - overview of Python 3
@@ -44,6 +45,7 @@ Monday
 - += etc.
 - looping with 'for'
 - if __name__ == '__main__'
+
 Tuesday
 - quick review of where we got to
 - range, generators
