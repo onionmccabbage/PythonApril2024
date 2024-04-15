@@ -38,9 +38,10 @@ Monday
 > validate input before casting it
 > string manipulation
 > Lists, Tuples and nested collections
-- after lunch review exercise
+> after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
 - import, pip, libraries and modules
+- functions
 - very big numeric values
 - += etc.
 - looping with 'for'
