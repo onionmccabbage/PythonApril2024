@@ -23,20 +23,20 @@ Monday
   Pycharm or VSCode or ...
 > overview of Python 3
 - architecture, structure, and professional code best practice
-- print() and input()
+> print() and input()
 > maths operators and data types
-- the if statement for conditional logic
-- while loop, break and pass
+> the if statement for conditional logic
+> while loop, break and pass
 > indentation
 > immutable strings
-- print formatting
+> print formatting
 > square bracket notation for iterable collections
 - memory efficiency
 > identifiers
 > boolean True and False
 > type and type conversion
-- validate input before casting it
-- string manipulation
+> validate input before casting it
+> string manipulation
 > Lists, Tuples and nested collections
 - after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
