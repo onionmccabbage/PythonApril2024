@@ -63,3 +63,28 @@ unusual = {1:'wow', True:'really?', 3.456:'pi'} # this is legal but not recommen
 # duplicate keys take the LAST-defined value
 d = {'fn':'Timnit', 'fn':'alternative', 'ln':'Gebru', 'age':43, 'other':l} # {} can also be used to declare a dict:a collection of name:value pairs
 print(d)
+
+# we can alter existing members of a list or dict
+l[3] = 'already'
+print(l)
+# we can type-cast things
+my_list = list(t) # take all the members of the tuple and put them into a list
+print(my_list, type(my_list))
+my_tuple = tuple(l) # all the members of the list become members of a new tuple
+
+d['age'] = 42
+d['also'] = 'admin'
+print(d)
+
+# we may iterate over the members of any collection
+for c in s: # the colon : indicates the start of a code block
+
+    '''we may write documentation strings using triple quotes
+    Code blocks default to four spaces
+    But you may use ANY indentation, so long as tyou are consistent
+    Empty lines are fine (no need to indent them!!)'''
+    pass
+
+    print(c, end='-') # by default the print statement ALWAYS adds a new line character
+
+# when the code is no longer indented, that is the end of the code block
