@@ -81,7 +81,7 @@ for c in s: # the colon : indicates the start of a code block
 
     '''we may write documentation strings using triple quotes
     Code blocks default to four spaces
-    But you may use ANY indentation, so long as tyou are consistent
+    But you may use ANY indentation, so long as you are consistent
     Empty lines are fine (no need to indent them!!)'''
     pass
 

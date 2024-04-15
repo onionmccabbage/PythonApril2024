@@ -19,7 +19,7 @@ Code Repo:
  
 Monday
 > Welcome and intros
-- where to write code: immediate and module (just a file)
+> where to write code: immediate and module (just a file)
   Pycharm or VSCode or ...
 > overview of Python 3
 - architecture, structure, and professional code best practice
