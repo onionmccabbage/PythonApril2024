@@ -1,11 +1,24 @@
+import sys
 import requests # remember we may need to pip install requests
 # up until 10yrs ago, we used urllib.request
 
 # we need our validator function
 from checkInRange import checkInteger
 
+def checkSysArgs():
+    '''if member 1 of the sys.argv exists, try to cast it to an int'''
+    n=False
+    if len(sys.argv) > 1: # remember there is ALWAYS the module name
+        try:
+            n = int(float(sys.argv[1]))
+        except Exception as err:
+            n = False
+    return n
+
 def makeApiCall(whichId=False):
     '''make a request to a web API and deal with the returned JSON'''
+    if checkSysArgs():
+        whichId = checkSysArgs()
     # use our validation check
     whichId = checkInteger(whichId)
     if whichId:
