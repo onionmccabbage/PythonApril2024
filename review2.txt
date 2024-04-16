@@ -1,4 +1,4 @@
-Python Review 2
+Python Review 2 (1hr 15mins, until tea break at 3:00)
 ===============
 Ask the user for a category and also for an id
 Use these to make a call to an API and show the results
@@ -29,8 +29,11 @@ Optional
 ========
 Use 'if' 'elif' and 'else' to print different nicely formatted strings depending on the category
 
+Check to see if any additional system arguments were provided
+If so, try to use them for cat . Otherwise, ask the user
+
 We need to ensure the two parameters are in the required form:
-Write a module containing a function called 'cleanup' which receives positional or keyword arguments (as you see fit)
+Write a module containing a function called 'cleanup' which receives arguments
 The cleanup function should ensure:
 - there is a value for the 'category' and it is a non-empty string containing one of the permitted categories
 - there is a value for the 'id' and it is a positive integer
