@@ -62,7 +62,7 @@ Tuesday
 > requests (to access web API via HTTP)
 > strings with triple quotes
 > exception handling (try-except etc.)
-- review exercise
+> review exercise
 - overview of testing
 - File input and output
 
@@ -94,6 +94,7 @@ Wednesday
   https://pynative.com/python-exercises-with-solutions/
   the next courses: advanced python then further advanced python
 - end of course feedback
+   https://apps.powerapps.com/play/17579985-153c-4727-b1f4-8b53e48b5e72?tenantId=92e84ceb-fbfd-47ab-be52-080c6b87953f&Type=ILT&ID=LZU1500463&OID=512790&Title=Programming%20in%20Python&Owner=Sachin%20Srivastava%20B
 
 Links
 - Python official site https://python.org
