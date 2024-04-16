@@ -16,7 +16,7 @@ recordings: username is neueda pwd is c0nygre
 Code Repo:
   https://github.com/onionmccabbage/PythonApril2024
 
- 
+
 Monday
 > Welcome and intros
 > where to write code: immediate and module (just a file)
@@ -40,15 +40,17 @@ Monday
 > Lists, Tuples and nested collections
 > after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
-- import, pip, libraries and modules
-- functions
-- very big numeric values
+> import, pip, libraries and modules
+> functions
+> very big numeric values
 - += etc.
-- looping with 'for'
+> looping with 'for'
 > if __name__ == '__main__'
 
 Tuesday
 - quick review of where we got to
+- import * (and what are the conventions)
+- import path
 - range, generators
 - set comprehension, list compresension, dictionary comprehension
 - functions, *args, **kwargs  
@@ -56,11 +58,10 @@ Tuesday
 > to add libraries to python:
   > python -m ensurepip
   > python –m pip install requests (or any other library you need)
-- requests
+- requests (to access web API via HTTP)
 - strings with triple quotes
 - exception handling (try-except etc.)
 - review exercise
-- import path
 - overview of testing
 - File input and output
 

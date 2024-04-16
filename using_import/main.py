@@ -4,6 +4,9 @@ from my_util import isOdd
 # this can also work for biult-in libraries
 from datetime import datetime
 
+# avoid the following:
+# from . import * # this will import (almost) EVERYTHING from the current package
+
 def main(m): # by convention we call our main funtion 'main'
     return isOdd(m)
 
