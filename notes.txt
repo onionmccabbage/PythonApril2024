@@ -59,9 +59,9 @@ Tuesday
 > to add libraries to python:
   > python -m ensurepip
   > python –m pip install requests (or any other library you need)
-- requests (to access web API via HTTP)
-- strings with triple quotes
-- exception handling (try-except etc.)
+> requests (to access web API via HTTP)
+> strings with triple quotes
+> exception handling (try-except etc.)
 - review exercise
 - overview of testing
 - File input and output
