@@ -36,10 +36,14 @@ def myValues():
     print(type(g)) # the values of generator do NOT all exist in memory - they are yielded on demand
     return tuple(g) # populate a tuple from the members of the generator
 
-
 if __name__ == '__main__':
     basicRange() # call our function within this module
     print( makeTuple() )
     print( makeList() )
     q = myValues()
     print(q)
+
+    # clarification: tuples
+    t1 = (5,4,True,'wow',3,2) # a tuple of values
+    t2 = (4, ) # what is this? The trailing comma ensures this is a one-member tuple
+    print(t2, type(t2))
