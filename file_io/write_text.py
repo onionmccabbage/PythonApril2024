@@ -8,6 +8,7 @@ def writeOutput(w):
 def writeChunks(t):
     'Sometimes it is useful to write to file in chunks'
     try:
+        # 'a' will append 'w' will (over)write 'x' for exclusive access
         fout = open('my_log.txt', 'a') # text is the default
         size = len(t)
         offset = 0
@@ -20,6 +21,8 @@ def writeChunks(t):
             else:
                 fout.write( t[offset:offset+chunk] ) # write a slice of the text string
                 offset += chunk
+    except FileExistsError as err:
+        print(f'Cannot get exclusive access: {err}')
     except Exception as err:
         print(err)
 
