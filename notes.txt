@@ -51,7 +51,7 @@ Monday
 Tuesday
 > quick review of where we got to
 > import * (and what are the conventions)
-- import path
+> import path
 > range, generators
 > set comprehension, list compresension, dictionary comprehension
 - functions, *args, **kwargs  
@@ -64,7 +64,7 @@ Tuesday
 > exception handling (try-except etc.)
 > review exercise
 - overview of testing
-- File input and output
+> File input and output
 
 Wednesday
 - brief review so far

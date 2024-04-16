@@ -8,7 +8,7 @@ def readText():
             # r = fin.readlines() # read all the lines into a list of strings
             # when the 'with' ends, it will close 'fin'
         return r
-    except FileExistsError as fe:
+    except FileExistsError as fe: # there is no file read that will throw this exception
         print(f'The file already exists: {fe}')
     except FileNotFoundError as fnf:
         print(f'That file cannot be located: {fnf}')
