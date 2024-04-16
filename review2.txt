@@ -1,0 +1,50 @@
+Python Review 2
+===============
+Ask the user for a category and also for an id
+Use these to make a call to an API and show the results
+
+This is a chance to explore Python 
+- Alter these instructions to suit your thinking
+- Aim for good architecture (maybe use separate modules and imports)
+- Look online, talk to each other, ask me etc.
+There will be an opportunity to share your code at the end
+
+Details:
+Write a new module which asks the user for a 'category' and an 'id' 
+(remember to use input() which always returns a string)
+Validate the user input as follows:
+- The category may only be one of 'users', 'posts, 'albums', 'todos' or 'photos'
+  (maybe use the 'in' operator to see if the value is in a tuple of permitted values)
+- The id must be a positive integer in the range 1-8 (or suitable range per category)
+After you ask the user for category and id values, build a string something like this: 
+  url = f'https://jsonplaceholder.typicode.com/{}/{}'
+  (Inject the 'category' and 'id' into the curly brackets)
+
+Use the 'requests' library to make a 'get' call to this end-point API
+Tell the user what was returned by showing a nicely formatted string
+
+Remember to handle potential exceptions
+
+Optional
+========
+Use 'if' 'elif' and 'else' to print different nicely formatted strings depending on the category
+
+We need to ensure the two parameters are in the required form:
+Write a module containing a function called 'cleanup' which receives positional or keyword arguments (as you see fit)
+The cleanup function should ensure:
+- there is a value for the 'category' and it is a non-empty string containing one of the permitted categories
+- there is a value for the 'id' and it is a positive integer
+If category or id is missing or unacceptable, you should provide sensible defaults
+For example, if id is a floating point number or a string, try to cast it as an int()
+Import and use your 'cleanup' function to sanitize the user-provided data
+
+Write a generator that yields integers values 1, 2, 3 up to 8
+Use this generator to make successive calls for user/1 user/2 etc.
+
+If Time
+=======
+The API end-point includes a number of 'posts' for each user
+When a request is made for a user, retreive all posts then show just the posts that match that user
+
+Ask for a secondary category, then retrieve that category (posts, todos, albums or photos) 
+for a specific user ID and display them nicely

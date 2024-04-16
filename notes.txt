@@ -55,7 +55,7 @@ Tuesday
 > range, generators
 > set comprehension, list compresension, dictionary comprehension
 - functions, *args, **kwargs  
-- passing command-line arguments (which are ALWAYS strings)
+> passing command-line arguments (which are ALWAYS strings)
 > to add libraries to python:
   > python -m ensurepip
   > python –m pip install requests (or any other library you need)
