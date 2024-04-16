@@ -1,9 +1,13 @@
 import requests # remember we may need to pip install requests
 # up until 10yrs ago, we used urllib.request
 
+# we need our validator function
+from checkInRange import checkInteger
 
 def makeApiCall(whichId=False):
     '''make a request to a web API and deal with the returned JSON'''
+    # use our validation check
+    whichId = checkInteger(whichId)
     if whichId:
         url = f'https://jsonplaceholder.typicode.com/users/{whichId}'
     else:
