@@ -10,6 +10,7 @@ Toby Dussek
 4:30  end
 
 Course Website: 
+https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Programming_in_Python/site/index.html
 
 recordings: username is neueda pwd is c0nygre
 
@@ -48,11 +49,11 @@ Monday
 > if __name__ == '__main__'
 
 Tuesday
-- quick review of where we got to
-- import * (and what are the conventions)
+> quick review of where we got to
+> import * (and what are the conventions)
 - import path
-- range, generators
-- set comprehension, list compresension, dictionary comprehension
+> range, generators
+> set comprehension, list compresension, dictionary comprehension
 - functions, *args, **kwargs  
 - passing command-line arguments (which are ALWAYS strings)
 > to add libraries to python:
