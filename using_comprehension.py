@@ -20,6 +20,11 @@ def dicComp(s): # we will pass in a string
     return characters_d
 
 if __name__ == '__main__':
-    print(  listComp(0, 99)  )
-    print(  tupleComp(0, 99)  )
+    # print(  listComp(0, 99)  )
+    # print(  tupleComp(0, 99)  )
     print(  dicComp('is it time for our morning coffee break yet?') )
+    s = 'dictionary comprehension'
+    whichLetter = 'h'
+    print( s.count(whichLetter) )
+    # how to make a dict
+    d = {'e':4, 'h':1} # a collection of {key:value} pairs

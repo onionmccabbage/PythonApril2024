@@ -54,7 +54,6 @@ Tuesday
 > import path
 > range, generators
 > set comprehension, list compresension, dictionary comprehension
-- functions, *args, **kwargs  
 > passing command-line arguments (which are ALWAYS strings)
 > to add libraries to python:
   > python -m ensurepip
@@ -63,14 +62,16 @@ Tuesday
 > strings with triple quotes
 > exception handling (try-except etc.)
 > review exercise
-- overview of testing
+> overview of testing
 > File input and output
 
 Wednesday
 - brief review so far
+- functions, *args, **kwargs  
 - functions live in classes, which live in modules which live in packages
 - architecture: modules __init__.py 
-- PEP8 style guide
+- more about testing
+> PEP8 style guide
 - custom generator and yield
 - global and local scope 
 - read and write binary files (bytes) - use 'b' isntead of 't'
@@ -88,7 +89,7 @@ Wednesday
 - inheritance
 - composition, static and class methods
 - review exercise
-- how to format with certain dp
+> how to format with certain dp
 - debug tools
 - where to go from here:
   https://pynative.com/python-exercises-with-solutions/
