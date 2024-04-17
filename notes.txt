@@ -83,7 +83,7 @@ Wednesday
     we should use getter/setter to prevent direct access, 
     but we can add arbitrary properies and methods to a class
 q what is the max recursion?
-q overloads???
+> overloads???
 > properties, methods, __str__
 > intrinsic attributes: __doc__ etc.
 > documentation strings (docstring) for classes
