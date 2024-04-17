@@ -26,10 +26,13 @@ class Point(): # by default every class inherits from object
     def getHyp(self):
         h = (self.__x**2 + self.__y**2)**0.5
         return h
-    def __str__(self):
+    def __str__(self): # remember, any print statement will make use of __str__
         '''we can override the built-in __str__ method with our own'''
         #              we can call the getter self.x and self.y
         return f'The point at x:{self.x} y:{self.y} has h:{self.getHyp()}'
+    def __repr__(self):
+        '''we may also choose to override __repr__ (for output in immediate mode python)'''
+        return f'{self.x} and {self.y} give h={self.getHyp()}'
     
 if __name__ == '__main__':
     p1 = Point(3,4)
