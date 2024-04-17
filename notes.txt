@@ -66,15 +66,15 @@ Tuesday
 > File input and output
 
 Wednesday
-- brief review so far
-- functions, *args, **kwargs  
-- functions live in classes, which live in modules which live in packages
+> brief review so far
+> functions, *args, **kwargs  
+> functions live in classes, which live in modules which live in packages
 - architecture: modules __init__.py 
 - more about testing
 > PEP8 style guide
 - custom generator and yield
 - global and local scope 
-- read and write binary files (bytes) - use 'b' isntead of 't'
+> read and write binary files (bytes) - use 'b' isntead of 't'
 - data modelling structures: 
     use built in structures until they do not suit the purpose (then use classes)
 > Objects and Classes (OOP)

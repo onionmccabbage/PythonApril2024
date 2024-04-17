@@ -23,6 +23,7 @@ def readBytes():
 if __name__ == '__main__':
     values = range(0,256) # these are NOT string values
     w = bytes(values)
+    # w = b'nearly lunchtime' # a handy way to make some bytes
     writeBytes(w) # pass the bytes into our writer
     # use our bytet reader
     result = readBytes()
