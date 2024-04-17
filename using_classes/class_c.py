@@ -55,6 +55,7 @@ if __name__ == '__main__':
     print(Mast.num_instances)
     print(m1.freq, m1.state, m1.height)
     # by default we can add ANY arbitrary property to any object, such as a class
+    # but __slots__ makes it safer
     m1.__wibbly = 'this is nonsense'
     m1.__wobbly = [3,6,78,4,2,5,9,6,3,True]
     print(m1.wibbly, m1.wobbly)

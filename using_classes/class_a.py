@@ -10,7 +10,7 @@ class Person:
         # we assign the incoming arguments to 'self'
         # NB when we write self.name it will actually call self.name()
         self.name = n # 'name' and 'age' are now properties of thsi class
-        self.age = a  # this will call teh setter function for 'age'
+        self.age = a  # this will call the setter function for 'age'
     # we can delare functions as methods of tis class
     @property # we declare that 'name' is a property of this class
     def name(self): # this is a property 'getter' accessor
@@ -43,5 +43,7 @@ if __name__ == '__main__':
     # we cannot access mangled properties directly
     # print(eth.__name) # this fails - we cannot access mangled members of the class
     print(eth.age, tim.name)
+    # we always have access to built-in parts of any object
+    print(  Person.__doc__, Person.__dict__ )
 
 
