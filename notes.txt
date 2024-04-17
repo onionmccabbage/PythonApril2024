@@ -79,15 +79,17 @@ Wednesday
     use built in structures until they do not suit the purpose (then use classes)
 - Objects and Classes (OOP)
 - get/set as property decorators @property
-- name mangling (__)
+> name mangling (__)
     we should use getter/setter to prevent direct access, 
     but we can add arbitrary properies and methods to a class
-- properties, methods, __str__
+q what is the max recursion?
+q overloads???
+> properties, methods, __str__
 - intrinsic attributes: __doc__ etc.
-- documentation strings (docstring) for classes
+> documentation strings (docstring) for classes
 - special operators and overriding
-- inheritance
-- composition, static and class methods
+> inheritance
+> composition, static and class methods
 - review exercise
 > how to format with certain dp
 - debug tools
