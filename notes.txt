@@ -85,9 +85,9 @@ Wednesday
 q what is the max recursion?
 q overloads???
 > properties, methods, __str__
-- intrinsic attributes: __doc__ etc.
+> intrinsic attributes: __doc__ etc.
 > documentation strings (docstring) for classes
-- special operators and overriding
+> special operators and overriding
 > inheritance
 > composition, static and class methods
 - review exercise

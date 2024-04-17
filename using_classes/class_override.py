@@ -23,5 +23,6 @@ class Word():
 if __name__ == '__main__':
     w1 = Word('hello')
     w2 = Word('Hello')
+    print(w1.word, w2.word)
 
     print( w1 == w2 ) # True
