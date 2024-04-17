@@ -17,13 +17,12 @@ recordings: username is neueda pwd is c0nygre
 Code Repo:
   https://github.com/onionmccabbage/PythonApril2024
 
-
 Monday
 > Welcome and intros
 > where to write code: immediate and module (just a file)
   Pycharm or VSCode or ...
 > overview of Python 3
-- architecture, structure, and professional code best practice
+> architecture, structure, and professional code best practice
 > print() and input()
 > maths operators and data types
 > the if statement for conditional logic
@@ -44,7 +43,7 @@ Monday
 > import, pip, libraries and modules
 > functions
 > very big numeric values
-- += etc.
+> += etc.
 > looping with 'for'
 > if __name__ == '__main__'
 
@@ -69,30 +68,30 @@ Wednesday
 > brief review so far
 > functions, *args, **kwargs  
 > functions live in classes, which live in modules which live in packages
-- architecture: modules __init__.py 
-- more about testing
+> architecture: modules __init__.py 
+> more about testing
 > PEP8 style guide
 - custom generator and yield
-- global and local scope 
+> global and local scope 
 > read and write binary files (bytes) - use 'b' isntead of 't'
-- data modelling structures: 
+> data modelling structures: 
     use built in structures until they do not suit the purpose (then use classes)
 > Objects and Classes (OOP)
 > get/set as property decorators @property
 > name mangling (__)
     we should use getter/setter to prevent direct access, 
     but we can add arbitrary properies and methods to a class
-q what is the max recursion?
-> overloads???
+> what is the max recursion? 10^3 but sys.setrecursionlimit() to what you need
+> overloads
 > properties, methods, __str__
 > intrinsic attributes: __doc__ etc.
 > documentation strings (docstring) for classes
 > special operators and overriding
 > inheritance
 > composition, static and class methods
-- review exercise
+> review exercise
 > how to format with certain dp
-- debug tools
+> debug tools
 - where to go from here:
   https://pynative.com/python-exercises-with-solutions/
   the next courses: advanced python then further advanced python
