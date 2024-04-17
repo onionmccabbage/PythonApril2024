@@ -29,7 +29,10 @@ def doMaths(*args):
     if len(args) == 3:
         return args[0]*args[1]*args[2]
     
-
+# we may choose to use defaults
+def useD(x=3, y=4):
+    return (x**2+y**2)**0.5
+    
 if __name__ == '__main__':
     usePositional(True, 33, 'hi', [4,3,2])
     useKeyword(x=3, y=4, n='Helen', a={5,3,8,0})
@@ -38,3 +41,7 @@ if __name__ == '__main__':
     print(doMaths(3.99)) # 4
     print(doMaths(4,6))  # 10
     print(doMaths(2,3,4)) # 24
+    print(useD()) #x and y will be default
+    print(useD(x=-3, y=-4)) # replace teh defaults with our own
+    print(useD(y=5, x=2))
+    print(useD(y=99)) # x willbe default
