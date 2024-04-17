@@ -31,7 +31,7 @@ Monday
 > immutable strings
 > print formatting
 > square bracket notation for iterable collections
-- memory efficiency
+> memory efficiency
 > identifiers
 > boolean True and False
 > type and type conversion
@@ -71,7 +71,7 @@ Wednesday
 > architecture: modules __init__.py 
 > more about testing
 > PEP8 style guide
-- custom generator and yield
+> custom generator and yield
 > global and local scope 
 > read and write binary files (bytes) - use 'b' isntead of 't'
 > data modelling structures: 
