@@ -1,0 +1,45 @@
+Python Review 3 until 2:45
+===============
+- Alter these instructions to suit your thinking
+- Aim for good architecture (maybe use separate modules, remember 'if __name__...')
+- Look online, talk to each other, ask me etc.
+- There will be an opportunity to share your code
+
+Write a 'Weather' class with get/set methods for 'city' and 'description'
+
+Your class should validate:
+  - the value for 'city' is a non-empty string of three or more characters
+  - if city is missing or unacceptable, you should provide a sensible default (e.g. 'Athlone')
+  - 'description' must be a string, but is may be an empty string
+
+In your Weather class, override __str__ so the class prints nicely, something like
+  'The weather in Athlone is cloudy'
+
+Exercise the code by making an instance of your Weather class with suitable values
+
+Print the values from the weather instance to a text file (maybe include a timestamp)
+Also provide a mechanism to read back the weather reports from the text file
+
+Then
+----
+Use the 'requests' library to get data from
+  https://api.openweathermap.org/data/2.5/weather?q=athlone&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1
+  (this ID will work up to 60 requests a minute)
+  Replace Athlone with any city name
+  You decide how to grab the city name - sys.argv, or from a file or input...
+When the response comes back, populate an instance of your Weather class
+For this API JSON data, the description will be
+  response_dict['weather'][0]['description']
+
+Write try-except blocks around some of your code (e.g. the api access)
+
+Optional
+--------
+Pass in the 'city' value as a parameter for the API URL
+  f'https://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1'
+The 'city' could be a sys.argv or user input value, but always provide a default
+
+Add a property to your Weather class for 'temperature' (a floating point number)
+Use the returned data to populate values for temperature in your Weather instance
+The temperature value will be
+  response_dict['main']['temp'] (show other data if you wish)
